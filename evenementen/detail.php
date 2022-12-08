@@ -104,7 +104,7 @@
                      
                         <!--/table Card-->
 <div class="container">
-    <h1 class="title mt-4">Music Collection</h1>
+    <h1 class="title mt-4">Evenement Collection</h1>
     <?php if (!empty($errors)): ?>
         <section class="content">
             <ul class="notification is-danger">
