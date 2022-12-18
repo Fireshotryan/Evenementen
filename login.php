@@ -10,23 +10,14 @@
     <link rel="icon" type="image/x-icon" href="./images/#.jpg">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        .body-bg {
-            background-image: url('images/gemeentenissewaard.jpg');
-        }
-    </style>
-</head>
-<body class="body-bg min-h-screen pt-12 md:pt-20 pb-6 px-2 md:px-0" style="font-family:'Lato',sans-serif;">
-    <header class="max-w-lg mx-auto">
-        <a href="#">
-            <h1 class="text-4xl font-bold text-white text-center">Startup</h1>
-        </a>
-    </header>
 
-    <main class="bg-white max-w-lg mx-auto p-8 md:p-12 my-10 rounded-lg shadow-2xl">
+</head>
+<body class="bg-no-repeat bg-cover bg-center bg-fixed min-h-screen pb-6 px-2 md:px-0" style="font-family:'Lato',sans-serif; background-image: url('images/gemeentenissewaard.jpg')">
+
+    <main class="bg-white max-w-lg mx-auto p-8 md:p-12 mt-14 rounded-lg shadow-2xl">
         <section>
-            <h3 class="font-bold text-2xl">Welcome to Startup</h3>
-            <p class="text-gray-600 pt-2">Sign in to your account.</p>
+            <h3 class="font-bold text-2xl">Login</h3>
+            <p class="text-gray-600 pt-2">Log hier in op je account</p>
         </section>
 
         <section class="mt-10">
@@ -47,14 +38,16 @@
         </section>
     </main>
 
-    <div class="max-w-lg mx-auto text-center mt-12 mb-6">
-        <p class="text-white">Don't have an account? <a href="#" class="font-bold hover:underline">Sign up</a>.</p>
+    <div class="max-w-lg mx-auto bg-white rounded-lg md:p-6 mt-4">
+    <div class="max-w-lg mx-auto text-center mt-2 mb-6">
+        <p class="text-black">Don't have an account? <a href="#" class="font-bold hover:underline">Sign up</a>.</p>
     </div>
 
-    <footer class="max-w-lg mx-auto flex justify-center text-white">
+    <footer class="max-w-lg mx-auto flex justify-center text-black">
         <a href="index.php" class="hover:underline">Home</a>
         <span class="mx-3">•</span>
         <a href="#" class="hover:underline">Privacy</a>
     </footer>
+</div>
 </body>
 </html>
