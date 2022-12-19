@@ -130,7 +130,7 @@
               >
             </li>
             <li>
-              <a class="md:p-4 py-2 block hover:text-purple-400 text-purple-500" href="login.php"
+              <a class="md:p-4 py-2 block hover:text-purple-400 text-purple-500" href="/evenementen/login.php"
                 >Login</a
               >
             </li>

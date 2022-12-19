@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
 
 </head>
-<body class="bg-no-repeat bg-cover bg-center bg-fixed min-h-screen pb-6 px-2 md:px-0" style="font-family:'Lato',sans-serif; background-image: url('images/gemeentenissewaard.jpg')">
+<body class="bg-no-repeat bg-cover bg-center bg-fixed min-h-screen pb-6 px-2 md:px-0" style="font-family:'Lato',sans-serif; background-image: url('../images/gemeentenissewaard.jpg')">
 
     <main class="bg-white max-w-lg mx-auto p-8 md:p-12 mt-14 rounded-lg shadow-2xl">
         <section>
@@ -44,7 +44,7 @@
     </div>
 
     <footer class="max-w-lg mx-auto flex justify-center text-black">
-        <a href="index.php" class="hover:underline">Home</a>
+        <a href="../index.php" class="hover:underline">Home</a>
         <span class="mx-3">•</span>
         <a href="#" class="hover:underline">Privacy</a>
     </footer>
