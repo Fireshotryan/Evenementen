@@ -4,6 +4,9 @@ require_once 'settings.php';
 require_once 'classes/System/Databases/Database.php';
 require_once 'classes/System/EvenementCollection/Collection.php';
 require_once 'classes/System/EvenementCollection/Evenement.php';
+require_once 'classes/System/Users/User.php';
+
+$session = new \System\Utils\Session();
 
 //Set variable for errors
 $errors = [];

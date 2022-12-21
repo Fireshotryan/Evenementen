@@ -15,29 +15,20 @@
 <body class="bg-no-repeat bg-cover bg-center bg-fixed min-h-screen pb-6 px-2 md:px-0" style="font-family:'Lato',sans-serif; background-image: url('../images/gemeentenissewaard.jpg')">
 
     <main class="bg-white max-w-lg mx-auto p-8 md:p-12 mt-14 rounded-lg shadow-2xl">
-    <?php if (!empty($errors)): ?>
-    <section class="content">
-        <ul class="notification is-danger">
-            <?php foreach ($errors as $error): ?>
-                <li><?= $error; ?></li>
-            <?php endforeach; ?>
-        </ul>
-    </section>
-<?php endif; ?>
         <section>
-            <h3 class="font-bold text-2xl">Login</h3>
-            <p class="text-gray-600 pt-2">Log hier in op je account</p>
+            <h3 class="font-bold text-2xl">register</h3>
+            <p class="text-gray-600 pt-2">registreer hier je account</p>
         </section>
 
         <section class="mt-10">
-        <form class="flex flex-col" action="dashboard.php" method="post" enctype="multipart/form-data">
+            <form class="flex flex-col" method="POST" action="/evenementen/dashboard.php">
                 <div class="mb-6 pt-3 rounded bg-gray-200">
                     <label class="block text-gray-700 text-sm font-bold mb-2 ml-3" for="email">Email</label>
-                    <input type="email" id="email" name="email" value="<?= $email ?? ''; ?>" class="bg-gray-200 rounded w-full text-gray-700 focus:outline-none border-b-4 border-gray-300 focus:border-purple-600 transition duration-500 px-3 pb-3"/>
+                    <input type="text" id="email" class="bg-gray-200 rounded w-full text-gray-700 focus:outline-none border-b-4 border-gray-300 focus:border-purple-600 transition duration-500 px-3 pb-3">
                 </div>
                 <div class="mb-6 pt-3 rounded bg-gray-200">
                     <label class="block text-gray-700 text-sm font-bold mb-2 ml-3" for="password">Password</label>
-                    <input type="password" id="password" name="password" class="bg-gray-200 rounded w-full text-gray-700 focus:outline-none border-b-4 border-gray-300 focus:border-purple-600 transition duration-500 px-3 pb-3">
+                    <input type="password" id="password" class="bg-gray-200 rounded w-full text-gray-700 focus:outline-none border-b-4 border-gray-300 focus:border-purple-600 transition duration-500 px-3 pb-3">
                 </div>
                 <div class="flex justify-end">
                     <a href="#" class="text-sm text-purple-600 hover:text-purple-700 hover:underline mb-6">Forgot your password?</a>
@@ -49,7 +40,7 @@
 
     <div class="max-w-lg mx-auto bg-white rounded-lg md:p-6 mt-4">
     <div class="max-w-lg mx-auto text-center mt-2 mb-6">
-        <p class="text-black">Don't have an account? <a href="register.php" class="font-bold hover:underline">Sign up</a>.</p>
+        <p class="text-black">Have an account? <a href="login.php" class="font-bold hover:underline">Login</a>.</p>
     </div>
 
     <footer class="max-w-lg mx-auto flex justify-center text-black">

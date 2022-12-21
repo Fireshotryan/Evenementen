@@ -125,7 +125,7 @@
               >
             </li>
             <li>
-              <a class="md:p-4 py-2 block hover:text-purple-400 text-purple-500" href="register.php"
+              <a class="md:p-4 py-2 block hover:text-purple-400 text-purple-500" href="/evenementen/register.php"
                 >Register</a
               >
             </li>
